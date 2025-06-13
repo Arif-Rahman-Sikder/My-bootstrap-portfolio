@@ -3,145 +3,486 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arif Rahman Sikder - Portfolio </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta name="description" content="Portfolio of Arif Rahman Sikder, a Computer Science & Engineering student specializing in web development, machine learning, and competitive programming.">
+    <meta name="keywords" content="Arif Rahman Sikder, portfolio, computer science, web development, machine learning, competitive programming">
+    <meta name="author" content="Arif Rahman Sikder">
+    <title>Arif Rahman Sikder - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-   
 </head>
 <body>
-    
-    <header>
-        <!-- Navigation bar -->
-        <nav class="navbar navbar-expand-lg bg-info">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"> </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#activities">Co-curricular Activities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Information</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Project">My projects</a>
-                        </li>
-                    </ul>
-               
-                </div>
-            </div>
-        </nav>
-        
-    </header>
-
-    <section id="about">
+    <nav class="navbar navbar-expand-lg fixed-top py-2" id="mainNav" style="font-size: 0.9rem;">
         <div class="container">
+          <a class="navbar-brand" href="#" style="font-size: 1rem;">Arif Rahman Sikder</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link px-2" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link px-2" href="#education">Education</a></li>
+              <li class="nav-item"><a class="nav-link px-2" href="#experience">Experience</a></li>
+              <li class="nav-item"><a class="nav-link px-2" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link px-2" href="#projects">Projects</a></li>
+              <li class="nav-item"><a class="nav-link px-2" href="#problem-solving">Problem Solving</a></li>
+              <li class="nav-item"><a class="nav-link px-2" href="#activities">Activities</a></li>
+              <li class="nav-item"><a class="nav-link px-2" href="#publications">Publications</a></li>
+              <li class="nav-item"><a class="nav-link px-2" href="#certifications">Certifications</a></li>
+              <li class="nav-item"><a class="nav-link px-2" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
             <div class="row align-items-center">
-                <div class="col-md-4">
-                    <img src="rahman.jpg" alt="Arif Rahman Sikder" width="300px" class="img-fluid">
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <div class="profile-image-wrapper">
+                        <img src="rahman.jpg" alt="Arif Rahman Sikder" class="profile-image">
+                    </div>
                 </div>
                 <div class="col-md-8">
-                    <h2>About Arif Rahman Sikder</h2>
-                    <p>
-                        I am the type of person who is true to my ambitions and interests. Independent, creative, freethinker, and have strong leadership potential. I am currently looking for an opportunity to utilize my skills in a challenging working environment and become a valuable asset to the formation.
-                    </p>
-                    <p>
-                        <strong>Education:</strong><br>
-                        - BSc in Computer Science and Engineering, International Islamic University Chittagong (6th semester)<br>
-                        <br>
-                        - Chattogram Cantonment Public College, (HSC-19) GPA-5.00<br>
-                        <br>
-                        - Southpoint School & College, (SSC-17) GPA-5.00
-                    </p>
+                    <div class="about-content">
+                        <p class="lead">An honest, dynamic problem-solver and learner eager to create innovative tech solutions. Passionate about leveraging skills in software engineering, web development, machine learning, and competitive programming to solve real-world problems.</p>
+                        <div class="social-links mt-4">
+                            <a href="https://scholar.google.com/citations?user=6YYTgf8AAAAJ&hl=en" class="btn btn-outline-primary" target="_blank">
+                                <i class="fas fa-graduation-cap"></i> Google Scholar
+                            </a>
+                            <a href="https://github.com/TheHonestGuy" class="btn btn-outline-primary" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/arif-rahman-sikder-24a664219/" class="btn btn-outline-primary" target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://www.stopstalk.com/user/profile/TheHonestGuy" class="btn btn-outline-primary" target="_blank">
+                                <i class="fas fa-code"></i> StopStalk
+                            </a>
+                            <a href="https://linktr.ee/arifrahmansikder" class="btn btn-outline-primary" target="_blank">
+                                <i class="fas fa-link"></i> Linktree
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="MyLinks">
+
+    <section id="education" class="section-padding bg-light">
         <div class="container">
-            <h2>Social and Coding Profile Links</h2>
-          <p> <img src="images (1).png" width="30px"> StopStalk <a href="https://www.stopstalk.com/user/profile/TheHonestGuy">--Pay a visit</a></p>
-          <p> <img src="images.png" width="30px"> Linktree  <a href="https://linktr.ee/arifrahmansikder?fbclid=IwAR32p1ehM3LZuWIcDsdtPrEuL2b18nxzBE2J2ud6MdVmoFWhz7lHjmQLsxg">--Click here to visit </a></p>
-          <p> <img src="supra.jpg" width="30px"> Github <a href="https://github.com/Arif-Rahman-Sikder">Pay a visit</a></p>
+            <h2 class="section-title">Education</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card education-card">
+                        <div class="card-body">
+                            <h5 class="card-title">B.Sc. in Computer Science & Engineering</h5>
+                            <h6 class="card-subtitle">International Islamic University Chittagong</h6>
+                            <p class="card-year">2021 - 2025</p>
+                            <p class="card-text">CGPA: 3.28/4.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card education-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Higher Secondary Certificate</h5>
+                            <h6 class="card-subtitle">Chattogram Cantonment Public College</h6>
+                            <p class="card-year">2017 - 2019</p>
+                            <p class="card-text">GPA: 5.00/5.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card education-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Secondary School Certificate</h5>
+                            <h6 class="card-subtitle">South Point School & College</h6>
+                            <p class="card-year">2015 - 2017</p>
+                            <p class="card-text">GPA: 5.00/5.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="skills">
+    <section id="experience" class="section-padding">
         <div class="container">
-            <h2>Skills</h2>
-          
-            <p>Interpersonal skills such as communication , management , Organizing , scalling and contributing on 
-                projects , helping on making contents , influencing etc. Technical skills are given below:
-            </p>
-            <ul>
-                <li>-Soft skills like MS (Word, PowerPoint)</li>
-                <li>-Touch-typing speed (84+) wpm</li>
-                <li>-Academic and social media content writing</li>
-                <li>-Programming (C, C++, Python)</li>
-                <li>-DBMS</li>
-                <li>-Data Structures</li>
-                <li>-HTML</li>
-                <li>-CSS</li>
-                <li>-Git & Github</li>
-                <li>-Bootstrap</li>
-            </ul>
-        </div>
-    </section>
-    <section id="Project">
-        <div class="container">
-            <h2>My University Projects</h2>
-            <p>
-                <ul><strong>Course-Selection-System-Database-Project <a href="https://github.com/Arif-Rahman-Sikder/Course-Selection-System-Database-Project">Click to see</a> </strong></ul>
-                <p>As our final database management system lab project for the fourth semester, we completed this project. This was a personal project, and we created the entity relational model for the entire Course Selection System before adding the needed information to the database. a variety of SQL queries, sub-queries, and pl/sql searches for data in the Oracle database's tables were displayed.</p>
-                <ul><strong>Car-Drive-Game <a href="https://github.com/Arif-Rahman-Sikder/Car-Drive-Game">Click to see</a></strong> </ul> 
-                <p>This was our 3rd semester course work done individually .We learned how to implement basic java code and learned to work with technologies like netbeans and intelliJ idea</p>
-              <ul><b>Digital-Clock-Using-Javascript <a href="https://arif-rahman-sikder.github.io/Digital-Clock-Using-Javascript/">Live</a> <a href="https://github.com/Arif-Rahman-Sikder/Digital-Clock-Using-Javascript/tree/main">,Click for code</a></b></ul>
-            </p>
+            <h2 class="section-title">Experience</h2>
+            <div class="card experience-card">
+                <div class="card-body">
+                    <h5 class="card-title">Undergraduate Teaching Assistant</h5>
+                    <h6 class="card-subtitle">International Islamic University Chittagong</h6>
+                    <p class="card-year">2023 (6 months)</p>
+                    <ul class="experience-list">
+                        <li>Assisted in teaching EEE-1222 (Electrical Engineering Fundamentals).</li>
+                        <li>Helped students understand theoretical concepts and practical lab components.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="activities">
+    <section id="skills" class="section-padding bg-light">
         <div class="container">
-            <h2>Curricular Activities (April 2018 - August 2023)</h2>
-            <ul>
-                <li>NesletterEditor - <b>IEEE Computer Society , IIUC</b> </li>
-                <li>Assistant Press & Publicity Secretary - <b>IIUC Computer Club </b> </li>
-                <li>General Member - <b>IIUC Data Science Research Group</b></li>
-                <li>Campus Ambassador Intern - <b>International MUN</b></li>
-                <li>Assistant Organizing and Content Secretary - <b>IIUC Competitive Programming Society</b></li>
-            </ul>
+            <h2 class="section-title">Skills</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h5 class="skill-title">Languages & Tools</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C/C++</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">LaTeX</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">GNS3</span>
+                            <span class="skill-tag">AI Tools</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h5 class="skill-title">Frameworks</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Bootstrap</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h5 class="skill-title">Databases & Dev Tools</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Oracle</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-8 mb-4">
+                    <div class="skill-category">
+                        <h5 class="skill-title">Concepts</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Software Engineering</span>
+                            <span class="skill-tag">Data Structures & Algorithms</span>
+                            <span class="skill-tag">Computer Networks</span>
+                            <span class="skill-tag">Web Development</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">OOP</span>
+                            <span class="skill-tag">Competitive Programming</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h5 class="skill-title">Typing</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Touch Typing: 80wpm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="projects" class="section-padding">
         <div class="container">
-            <h2>Contact Information</h2>
-            <p>
-                Road no-14, Block-B, Chandgaon, Chattogram.<br>
-                Email: arifrahman78640@gmail.com<br>
-                Phone: +8801830065110<br>
-              
-            </p>
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Rahman Bank</h5>
+                            <p class="card-text">A beginner-friendly banking app to calculate savings and expenditure, created using HTML, CSS, Bootstrap, and JavaScript.</p>
+                            <div class="project-tech mb-3">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <a href="https://arif-rahman-sikder.github.io/rahman-bank/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">VIBECRAFT</h5>
+                            <p class="card-text">An award-winning agency clone website built with HTML, CSS, JavaScript, GSAP, and Locomotive Scroll.</p>
+                            <div class="project-tech mb-3">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">GSAP</span>
+                            </div>
+                            <a href="https://arif-rahman-sikder.github.io/vibecraft/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Computer Networks Team Project</h5>
+                            <p class="card-text">Enhanced network redundancy and efficiency using HSRP and OSPF in GNS3.</p>
+                            <div class="project-tech mb-3">
+                                <span class="tech-tag">GNS3</span>
+                                <span class="tech-tag">HSRP</span>
+                                <span class="tech-tag">OSPF</span>
+                            </div>
+                            <a href="https://drive.google.com/drive/folders/1_PU35GJXUpgVjx7c4XKWXqvClY48UGvM?dmr=1&ec=wgc-drive-globalnav-goto" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Course Selection System Database Project</h5>
+                            <p class="card-text">A database project with an entity-relational model and SQL/PL-SQL queries in Oracle.</p>
+                            <div class="project-tech mb-3">
+                                <span class="tech-tag">Oracle</span>
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">PL-SQL</span>
+                            </div>
+                            <a href="https://github.com/Arif-Rahman-Sikder/Course-Selection-System-Database-Project" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Car Drive Game</h5>
+                            <p class="card-text">A Java-based game developed using NetBeans and IntelliJ IDEA.</p>
+                            <div class="project-tech mb-3">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">NetBeans</span>
+                                <span class="tech-tag">IntelliJ IDEA</span>
+                            </div>
+                            <a href="https://github.com/Arif-Rahman-Sikder/Car-Drive-Game" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Clock Using JavaScript</h5>
+                            <p class="card-text">A digital clock built with HTML, CSS, and JavaScript.</p>
+                            <div class="project-tech mb-3">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://arif-rahman-sikder.github.io/Digital-Clock-Using-Javascript/" class="btn btn-primary me-2" target="_blank">Live Demo</a>
+                                <a href="https://github.com/Arif-Rahman-Sikder/Digital-Clock-Using-Javascript/tree/main" class="btn btn-outline-primary" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-   
 
-    <footer>
+    <section id="problem-solving" class="section-padding bg-light">
         <div class="container">
-            <p>&copy; 2023 Arif Rahman Sikder</p>
+            <h2 class="section-title">Problem Solving</h2>
+            <div class="card problem-solving-card">
+                <div class="card-body">
+                    <h5 class="card-title">Online Judges</h5>
+                    <p class="card-text">Solved problems on various platforms including Codeforces, Codechef, LeetCode, and AtCoder.</p>
+                    <div class="platform-links">
+                        <a href="https://codeforces.com/profile/TheHonestGuy" class="btn btn-outline-primary" target="_blank">Codeforces</a>
+                        <a href="https://www.codechef.com/users/thehonestguy" class="btn btn-outline-primary" target="_blank">Codechef</a>
+                        <a href="https://leetcode.com/u/TheHonestGuy/" class="btn btn-outline-primary" target="_blank">LeetCode</a>
+                        <a href="https://atcoder.jp/users/TheHonestGuy" class="btn btn-outline-primary" target="_blank">AtCoder</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Extra-curricular & Leadership Activities</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card activity-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Newsletter Editor, Treasurer</h5>
+                            <p class="card-text">IEEE Computer Society IIUC Student Branch Chapter (Content Writing and Finance, 2 years).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card activity-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Assistant Content and Organizing Secretary</h5>
+                            <p class="card-text">IIUC Competitive Programming Society (Media and Content creation, 1 year).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card activity-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Assistant Press & Publication Secretary</h5>
+                            <p class="card-text">IIUC Computer Club (Content writing, 2 years).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card activity-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Research Group Member</h5>
+                            <p class="card-text">IIUC Data Science Research Group (2 years).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card activity-card">
+                        <div class="card-body">
+                            <h5 class="card-title">IEEE CS Volunteer</h5>
+                            <p class="card-text">International Conference on Innovations in Science, Engineering and Technology (ICISET 2024).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card activity-card">
+                        <div class="card-body">
+                            <h5 class="card-title">IIUC Computer Club Representative</h5>
+                            <p class="card-text">15th IIUC Inter University Programming Contest 2023.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card publication-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bangla Sign Language Recognition</h5>
+                            <p class="card-text">Lightweight Convolutional Neural Network with Self-Attention Mechanism for Bangla Sign Language Recognition (ECCE-2024).</p>
+                            <a href="https://ieeexplore.ieee.org/document/11013937" class="btn btn-primary" target="_blank">Read Paper</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card publication-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Eggplant Yield Prediction</h5>
+                            <p class="card-text">Eggplant Yield Prediction Utilizing 130 Locally Collected Genotypes and Machine Learning Model (ICCIT-2023).</p>
+                            <a href="https://www.researchgate.net/publication/378544187_Eggplant_Yield_Prediction_Utilizing_130_Locally_Collected_Genotypes_and_Machine_Learning_Model" class="btn btn-primary" target="_blank">Read Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card certification-card">
+                        <div class="card-body">
+                            <h5 class="card-title">C++ Programming</h5>
+                            <p class="card-text">Phitron (2023)</p>
+                            <a href="https://www.linkedin.com/in/arif-rahman-sikder-24a664219/details/certifications/1733073762866/single-media-viewer/" class="btn btn-primary" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card certification-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Structures & Algorithms (C++)</h5>
+                            <p class="card-text">Udemy (2023)</p>
+                            <a href="https://www.linkedin.com/in/arif-rahman-sikder-24a664219/details/certifications/1722461539756/single-media-viewer/" class="btn btn-primary" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card certification-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Git and GitHub</h5>
+                            <p class="card-text">Udemy (2023)</p>
+                            <a href="https://www.udemy.com/certificate/UC-d0b457c0-6ad3-4a5b-b6bd-872d375088bc/" class="btn btn-primary" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card certification-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Eggplant Yield Prediction</h5>
+                            <p class="card-text">ICCIT (2023)</p>
+                            <a href="https://drive.google.com/drive/search?q=papercertificate" class="btn btn-primary" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card certification-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Front-End Development (React)</h5>
+                            <p class="card-text">CUET EDGE Program (2024)</p>
+                            <a href="https://www.linkedin.com/in/arif-rahman-sikder-24a664219/details/certifications/1744046494404/single-media-viewer/" class="btn btn-primary" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="contact-info">
+                        <div class="contact-item mb-3">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Road no-14, Block-B, Chandgaon, Chattogram, Bangladesh</span>
+                        </div>
+                        <div class="contact-item mb-3">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:arifrahman78640@gmail.com">arifrahman78640@gmail.com</a>
+                        </div>
+                        <div class="contact-item mb-3">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+8801331649236">+8801331649236</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <a href="Arif Rahman Sikder_CV.pdf" class="btn btn-primary btn-lg" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="text-center py-4">
+                <p class="mb-0">© 2025 Arif Rahman Sikder. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
