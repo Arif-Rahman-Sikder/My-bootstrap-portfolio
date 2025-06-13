@@ -13,63 +13,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <header>
-        <!-- Navigation bar -->
-        <nav class="navbar navbar-expand-lg bg-info">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"> </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>6
-                        <li class="nav-item">
-                            <a class="nav-link" href="#activities">Co-curricular Activities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Information</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Project">My projects</a>
-                        </li>
-                    </ul>
-               
-                </div>
-            </div>
-        </nav>
-        
-    </header>
-
-    <section id="about">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
-          <a class="navbar-brand" href="#" style="font-size: 1rem;">Arif Rahman Sikder</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link px-2" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link px-2" href="#education">Education</a></li>
-              <li class="nav-item"><a class="nav-link px-2" href="#experience">Experience</a></li>
-              <li class="nav-item"><a class="nav-link px-2" href="#skills">Skills</a></li>
-              <li class="nav-item"><a class="nav-link px-2" href="#projects">Projects</a></li>
-              <li class="nav-item"><a class="nav-link px-2" href="#problem-solving">Problem Solving</a></li>
-              <li class="nav-item"><a class="nav-link px-2" href="#activities">Activities</a></li>
-              <li class="nav-item"><a class="nav-link px-2" href="#publications">Publications</a></li>
-              <li class="nav-item"><a class="nav-link px-2" href="#certifications">Certifications</a></li>
-              <li class="nav-item"><a class="nav-link px-2" href="#contact">Contact</a></li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">Arif Rahman Sikder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#problem-solving">Problem Solving</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-      </nav>
-      
+    </nav>
 
     <section id="about" class="section-padding">
         <div class="container">
@@ -81,18 +46,26 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <h2>About Arif Rahman Sikder</h2>
-                    <p>
-                        I am the type of person who is true to my ambitions and interests. Independent, creative, freethinker, and have strong leadership potential. I am currently looking for an opportunity to utilize my skills in a challenging working environment and become a valuable asset to the formation.
-                    </p>
-                    <p>
-                        <strong>Education:</strong><br>
-                        - BSc in Computer Science and Engineering, International Islamic University Chittagong<br>
-                        <br>
-                        - Chattogram Cantonment Public College, (HSC-19) GPA-5.00<br>
-                        <br>
-                        - Southpoint School & College, (SSC-17) GPA-5.00
-                    </p>
+                    <div class="about-content">
+                        <p class="lead">An honest, dynamic problem-solver and learner eager to create innovative tech solutions. Passionate about leveraging skills in software engineering, web development, machine learning, and competitive programming to solve real-world problems.</p>
+                        <div class="social-links mt-4">
+                            <a href="https://scholar.google.com/citations?user=6YYTgf8AAAAJ&hl=en" class="btn btn-outline-primary" target="_blank">
+                                <i class="fas fa-graduation-cap"></i> Google Scholar
+                            </a>
+                            <a href="https://github.com/TheHonestGuy" class="btn btn-outline-primary" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/arif-rahman-sikder-24a664219/" class="btn btn-outline-primary" target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://www.stopstalk.com/user/profile/TheHonestGuy" class="btn btn-outline-primary" target="_blank">
+                                <i class="fas fa-code"></i> StopStalk
+                            </a>
+                            <a href="https://linktr.ee/arifrahmansikder" class="btn btn-outline-primary" target="_blank">
+                                <i class="fas fa-link"></i> Linktree
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -155,14 +128,69 @@
 
     <section id="skills" class="section-padding bg-light">
         <div class="container">
-            <h2>Curricular Activities (April 2021- December 2024)</h2>
-            <ul>
-                <li>NewsletterEditor (1st term) and Treasurer (2nd term) - <b>IEEE Computer Society , IIUC SBC </b> </li>
-                <li>Assistant Press & Publicity Secretary - <b>IIUC Computer Club </b> </li>
-                <li>General Member - <b>IIUC Data Science Research Group</b></li>
-                <li>Campus Ambassador Intern - <b>International MUN</b></li>
-                <li>Organizing and Content Secretary - <b>IIUC Competitive Programming Society</b></li>
-            </ul>
+            <h2 class="section-title">Skills</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h5 class="skill-title">Languages & Tools</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C/C++</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">LaTeX</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">GNS3</span>
+                            <span class="skill-tag">AI Tools</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h5 class="skill-title">Frameworks</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Bootstrap</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h5 class="skill-title">Databases & Dev Tools</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Oracle</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-8 mb-4">
+                    <div class="skill-category">
+                        <h5 class="skill-title">Concepts</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Software Engineering</span>
+                            <span class="skill-tag">Data Structures & Algorithms</span>
+                            <span class="skill-tag">Computer Networks</span>
+                            <span class="skill-tag">Web Development</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">OOP</span>
+                            <span class="skill-tag">Competitive Programming</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h5 class="skill-title">Typing</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Touch Typing: 80wpm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -437,7 +465,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="Arif Rahman Sikder_CV.pdf" class="btn btn-primary btn-lg" download>
+                    <a href="Arif_Rahman_Sikder_CV.pdf" class="btn btn-primary btn-lg" download>
                         <i class="fas fa-download"></i> Download CV
                     </a>
                 </div>
